@@ -19,7 +19,7 @@ class Transfer
     if self.valid?
       binding.pry
   end
-  
+end
   
   
   
