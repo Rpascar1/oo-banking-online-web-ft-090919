@@ -12,23 +12,4 @@ class Transfer
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 end
