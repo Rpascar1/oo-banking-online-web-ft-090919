@@ -22,12 +22,9 @@ class Transfer
         reciver.balance += amount && sender.balance -= amount
         puts "complete"
         counter +=1
-      esle if  
-      counter > 0
-      end
-      else
-    end
-end
+       end
+   
+     end
   
   
   
