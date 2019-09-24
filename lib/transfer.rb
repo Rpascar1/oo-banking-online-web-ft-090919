@@ -17,7 +17,6 @@ class Transfer
 
   def execute transaction
     if self.valid?
-      binding.pry
   end
 end
   
