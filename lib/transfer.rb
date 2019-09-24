@@ -13,6 +13,7 @@ class Transfer
 
   def valid?
   binding.pry
+  if sender
   
   
   end
