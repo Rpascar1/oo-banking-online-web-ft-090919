@@ -12,7 +12,7 @@ class Transfer
   end
 
   def valid?
-  BINDING.PRY
+  binding.pry
   
   
   end
