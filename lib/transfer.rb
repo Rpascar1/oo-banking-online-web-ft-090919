@@ -21,7 +21,8 @@ class Transfer
       if sender.amount <= sender.balance
         receiver.balance += sender.amount && sender.balance -= sender.amount
         puts "complete"
-       end
+     else
+        return
    
      end
   end
