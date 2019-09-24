@@ -15,8 +15,8 @@ class Transfer
   sender.valid? && receiver.valid?
   end
 
-  def execute transaction
-    if 
+  def execute transaction(receiver,sender)
+  
   end
   
   
