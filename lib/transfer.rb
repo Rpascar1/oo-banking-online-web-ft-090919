@@ -21,7 +21,8 @@ class Transfer
       if sender.amount <= sender.balance
         receiver.balance += sender.amount && sender.balance -= sender.amount
         @status = "complete"
-     else
+     elsif
+        @status != pending
         puts "Transaction rejected. Please check your account balance."
    
      end
