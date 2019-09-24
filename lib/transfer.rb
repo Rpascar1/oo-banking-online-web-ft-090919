@@ -18,14 +18,13 @@ class Transfer
   def execute transaction
     counter = 0
     if sender.valid? && reciever.valid?
-      if amount <= sender.balance
-        reciver.balance += amount && sender.balance -= amount
+      if sender.amount <= sender.balance
+        receiver.balance += sender.amount && sender.balance -= sender.amount
         puts "complete"
-        counter +=1
        end
    
      end
-  
+  end
   
   
   
