@@ -16,8 +16,16 @@ class Transfer
   end
 
   def execute transaction
-    if self.valid?
-      sender.
+    if sender.valid? && reciever.valid?
+      if amount <= sender.balance
+        reciver.balance += amount && sender.balance -= amount
+        
+        puts
+      else
+        
+    end
+  else
+    
   end
 end
   
