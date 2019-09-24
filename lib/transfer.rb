@@ -35,6 +35,7 @@ class Transfer
       receiver.balance = initial_receiver
       @status = "reversed"
     end
+  end
   
   
 end
