@@ -16,11 +16,14 @@ class Transfer
   end
 
   def execute transaction
+    counter = 0
     if sender.valid? && reciever.valid?
       if amount <= sender.balance
         reciver.balance += amount && sender.balance -= amount
         puts "complete"
         counter +=1
+      esle if  
+      counter > 0
       end
       else
     end
