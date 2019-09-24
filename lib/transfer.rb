@@ -18,7 +18,7 @@ class Transfer
     counter = 0
     if sender.valid? && receiver.valid?
       if amount <= sender.balance
-        receiver.balance - amount && sender.balance + amount
+        receiver.balance + amount && sender.balance - amount
         @status = "complete"
      elsif
         if @status != pending
