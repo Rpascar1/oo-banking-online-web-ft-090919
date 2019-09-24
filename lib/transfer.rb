@@ -29,7 +29,7 @@ class Transfer
   end
   
   
-  def reverse_trasfer
+  def reverse_transfer
     if @status == "complete"
       sender.balance = initial_sender
       receiver.balance = initial_receiver
