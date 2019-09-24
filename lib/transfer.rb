@@ -15,7 +15,7 @@ class Transfer
   sender.valid? && receiver.valid?
   end
 
-  def execute transaction
+  def execute_transaction
     counter = 0
     if sender.valid? && reciever.valid?
       if sender.amount <= sender.balance
