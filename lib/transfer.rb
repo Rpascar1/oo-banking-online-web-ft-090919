@@ -16,7 +16,8 @@ class Transfer
   end
 
   def execute transaction(receiver,sender)
-  
+    if self.valid?
+      
   end
   
   
