@@ -18,8 +18,8 @@ class Transfer
   def execute_transaction
     counter = 0
     if sender.valid? && receiver.valid?
-      if self.sender.amount <= self.sender.balance
-        receiver += sender && sender.balance -= sender.amount
+      if sender.amount <= sender.balance
+        receiver.balance += sender.amount && sender.balance -= sender.amount
         puts "complete"
      else
         puts "Transaction rejected. Please check your account balance."
