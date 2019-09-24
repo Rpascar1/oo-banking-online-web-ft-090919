@@ -20,7 +20,7 @@ class Transfer
     if sender.valid? && receiver.valid?
       if sender.amount <= sender.balance
         receiver.balance += sender.amount && sender.balance -= sender.amount
-        puts "complete"
+        @status = "complete"
      else
         puts "Transaction rejected. Please check your account balance."
    
