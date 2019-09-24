@@ -1,7 +1,7 @@
 class Transfer
 
-    attr_reader :transfer
-    attr_accessor :reciever, :status, :sender
+    attr_reader 
+    attr_accessor :reciever, :status, :sender, :transfer
   def initialize(transfer, reciever, sender)
     @transfer = transfer
     @reciever = reciever
