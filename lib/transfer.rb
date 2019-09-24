@@ -23,7 +23,6 @@ class Transfer
         counter +=1
       else
         
-        
     end
   else
     
