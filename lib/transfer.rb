@@ -24,9 +24,10 @@ class Transfer
         if @status != pending
           @status = "rejected"
         puts "Transaction rejected. Please check your account balance."
-     end
+        end
+      end
+    end
   end
-end
   
   
 end
