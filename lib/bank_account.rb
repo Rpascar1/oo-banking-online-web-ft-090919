@@ -17,7 +17,9 @@ class BankAccount
     p "Your balance is $#{self.balance}."
   end
 
-
+  def valid?
+    
+  end
 
 
 
