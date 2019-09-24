@@ -1,7 +1,7 @@
 class Transfer
 
-  def initialize(Transfer)
-    @Transfer = Transfer
+  def initialize(transfer)
+    @Transfer = transfer
   end
 
 
