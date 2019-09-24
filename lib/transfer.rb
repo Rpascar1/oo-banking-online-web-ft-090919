@@ -22,7 +22,7 @@ class Transfer
         receiver.balance += sender.amount && sender.balance -= sender.amount
         puts "complete"
      else
-        return
+        puts "Transaction rejected. Please check your account balance."
    
      end
   end
